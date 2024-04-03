@@ -8,9 +8,6 @@ import { registerForEvent } from "./routes/register-for-event";
 import { getEvent } from "./routes/get-event";
 import { getAttendeeBadge } from "./routes/get-attendee-badge";
 import { checkIn } from "./routes/check-in";
-// import dotenv from "dotenv";
-
-// dotenv.config();
 
 export const app = fastify();
 
