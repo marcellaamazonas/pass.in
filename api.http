@@ -1,0 +1,29 @@
+
+POST http://localhost:3333/events
+Content-Type: application/json
+
+{
+  "title": "novo evento",
+  "details": "Um evento tecnologico",
+  "maximumAttendees": 1
+}
+
+###
+POST http://localhost:3333/events/2de19102-34ad-472b-ad26-df2d2a36be33/attendees
+Content-Type: application/json
+
+{
+  "name": "Marcella Amazonas teste2",
+  "email": "marcella2@gmail.com"
+  }
+
+
+###
+GET http://localhost:3333/events/2de19102-34ad-472b-ad26-df2d2a36be33
+
+
+###
+GET http://localhost:3333/attendees/1/badge
+
+###
+GET http://localhost:3333/attendees/1/check-in
