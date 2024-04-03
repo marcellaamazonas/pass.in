@@ -26,4 +26,7 @@ GET http://localhost:3333/events/2de19102-34ad-472b-ad26-df2d2a36be33
 GET http://localhost:3333/attendees/1/badge
 
 ###
-GET http://localhost:3333/attendees/1/check-in
+GET http://localhost:3333/attendees/2/check-in
+
+###
+GET http://localhost:3333/events/2de19102-34ad-472b-ad26-df2d2a36be33/attendees?name=Marcella
